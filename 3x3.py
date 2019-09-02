@@ -110,10 +110,7 @@ def play():
 
 def run_sim():
     wins = 0
-    for i in range(10000):
+    for i in range(100000):
         wins += play()
     return wins
-
-
-print(run_sim())
 
